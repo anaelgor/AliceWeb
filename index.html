@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div class="topnav">
+<a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
+</div>
+		  
+<section id="about" class="section">
+  <h1 b>About me</h1>
+<br/>
+<br/>
+כרגע יש פה הרבה קשקושים עוד מעט אוסיף מילים כדי שיהיה פה משהו.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+  <h1 b>My Photos</h1>
+<br/>
+<br/>
+<!-- <ul id ="imageslist">
+  <li>
+      <img src="photos/alice1.jpeg" >
+  </li>
+  <li>
+      <img src="photos/alice2.jpeg" >
+  </li>
+  <li></li>
+</ul> -->
+<div class="row">
+  <div class="column">
+      <img src="photos/alice1.jpeg" >
+  </div>
+  <div class="column">
+      <img src="photos/alice2.jpeg" >
+  </div>
+  <div class="column">
+      <img src="photos/alice3.jpeg" >
+  </div>
+  <div class="column">
+      <img src="photos/alice4.jpeg" >
+  </div>
+  <div class="column">
+      <img src="photos/alice5.jpeg" >
+  </div>
+</div>
+
+<!-- <table class="imagesClass" style="float:center" >
+  <tr>
+    <tr>
+      <img src="photos/alice1.jpeg" >
+    </tr>
+    <tr>
+      <img src="photos/alice2.jpeg" >
+    </tr>
+    <tr>
+      <img src="photos/alice3.jpeg" >
+    </tr>
+    <tr>
+      <img src="photos/alice4.jpeg" >
+    </tr>
+    <tr>
+      <img src="photos/alice5.jpeg" >
+    </tr>
+  </tr>
+</table> -->
+
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<h1 b>My Playlist</h1>
+<br/>
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmWYEDTNOGUKwx_dO6K2wD9zuxJX6ujFB" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<h1 b>Give me a LIKE</h1>
+<br/>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fofficialgoldenretriever%2F&width=100&layout=button_count&action=like&size=large&show_faces=true&share=true&height=46&appId" width="180" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+scan my code
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+ans
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+contact me
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
