@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div class="topnav">
+<img src="photos/LOGO.png" width="20" height="20">
+<a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+  <h1 b>About me</h1>
+<h2 b>Hello all !!!</h2>
+<br/>
+My name is <b>Alice</b> and i am Golden Retriever.
+<br/>
+<br/>
+I was born at 7th of March and I am 4 (human) years old.
+<br/>
+I live in Givataim and my family brought me here from a Golden Farm.
+<br/>
+<br/>
+I love my family, to meet new friends and I love playing with my toys.
+<br/>
+I have so many toys like balls from all sizes and also some pupets that i like to chew :)
+<br/>
+<br/>
+I eat usually dog food, but sometimes people give me some snacks and residues.
+
+<br/>
+</section>
+
+<section id="photos" class="section">
+  <h1 b>My Photos</h1>
+<div class="row">
+  <div class="column">
+      <img src="photos/alice1.jpeg" width="190" height="400">
+  </div>
+  <div class="column">
+      <img src="photos/alice2.jpeg" width="190" height="400">
+  </div>
+  <div class="column">
+      <img src="photos/alice3.jpeg" width="190" height="400">
+  </div>
+  <div class="column">
+      <img src="photos/alice4.jpeg" width="200" height="200">
+  </div>
+  <div class="column">
+      <img src="photos/alice5.jpeg" width="200" height="200">
+  </div>
+</div>
+
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<h1 b>My Playlist</h1>
+<br/>
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmWYEDTNOGUKwx_dO6K2wD9zuxJX6ujFB" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<h1 b>Give me a LIKE</h1>
+<br/>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fanaelgor.github.io%2FAliceWeb%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+</section>
+
+<section id="qrcoder" class="section">
+<h1 b>Scan me !</h1>
+<li><img src="QRCode.png" /></li>
+<br/>
+</section>
+
+<section id="spa" class="section">
+  <h1 b>Q&A</h1>
+  <h2 b>Name 3 differences between Web1, Web2 and Web3:</h2>
+<br/>
+<u>Web1</u>
+<br/>
+1) No interaction.
+<br/>
+2) Users can only recieve information.
+<br/>
+<br/>
+<u>Web2</u>
+<br/>
+1) Interaction between users.
+<br/>
+2) Encourage users to share information.
+<br/>
+3) Web Applications.
+<br/>
+<br/>
+<u>Web3</u>
+<br/>
+1) Uses AI algorithms to learn about the user, and to discover new relevant content.
+<br/>
+2) Can iterpret information like humans.
+<br/>
+3) Distributes relevant information for human's needs.
+<br/>
+<br/>
+<u>Example:</u>
+<br/>
+A user that will search "Golden Retriver", in Web1 the user will get information pages,
+<br/>
+in Web2 the user will get Facebook page of Golden retriver Fans and will be allowd to "Like" this page and leave comments on posts.
+<br/>
+In Web3 the computer will offer the user assosiation of adopting dogs, which offers to adopt Golden retriver dog,
+<br/>
+based on his location, last searchs and his browsing history.
+<br/>
+The results based on Web3 will be different and more dynamic depends on indevidual users.
+
+</section>
+
+<section id="contact" class="section">
+  <h1 b>Contact me</h1>
+<form method="post" action="mailto:anaelgor@post.bgu.ac.il" enctype="text/plain">
+  <input type="text" name="Name" placeholder="Please enter your name" size = 60px>
+  <br/>
+  <br/>
+  <input type="email" name="Email" placeholder="Please enter your Email" size = 60px>
+  <br/>
+  <br/>  
+  <textarea rows=5 cols = 60px name="message" placeholder="Please enter Your Message"></textarea>
+  <br/>
+  <br/>
+
+
+  <button  type="submit">Send</button>
+</form>
+<br/>
+<br/>
+
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
