@@ -1,7 +1,7 @@
 
 body {
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Ariel, Helvetica, sans-serif;
 	background-color: rgb(145, 229, 187);
   }
 
@@ -13,6 +13,9 @@ body {
   .topnav {
 	overflow: hidden;
 	background-color: rgb(65, 180, 136);
+	position: fixed;
+	width: 100%;
+	top: 0;
   }
   
   .topnav a {
